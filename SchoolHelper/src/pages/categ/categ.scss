@@ -2,9 +2,43 @@ page-categ {
 	.align-content > *
 	{
      	display: flex!important;
-     	flex-wrap: wrap-reverse;
+     	flex-wrap: wrap;
      	flex-direction: row;
      	justify-content: center;
+     	align-content: flex-start;
 	}
+
+	.card-title {
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    	position: absolute;
+    	top: 36%;
+    	font-size: 2.0em;
+    	width: 100%;
+    	font-weight: bold;
+    	color: #fff;
+   
+ 	 }
+
+  	.card-button {
+  		position: relative;
+  		height: 140px;
+  		width: 100%;
+    	background-color: #fff;
+  	}
+
+  	.card-subtitle {
+    	font-size: 1.0em;
+    	position: absolute;
+    	top: 52%;
+    	width: 100%;
+    	color: #fff;
+  	}
+
+	ion-card {
+    	position: relative;
+    	text-align: center;
+    	height: 120px;
+    	padding-bottom: 10px;
+  	}
 
 }

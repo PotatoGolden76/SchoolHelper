@@ -8,5 +8,13 @@
 </ion-header>
 
 <ion-content padding text-center class="align-content">
-  
+
+  <button class="card-button" *ngFor="let c of cards">
+  	<ion-card> 
+  		<img src={{c.photo}}>
+		<div class="card-title">{{c.title}}</div>
+   	 	<div class="card-subtitle"> </div>
+  	</ion-card>
+  </button>
+
 </ion-content>
