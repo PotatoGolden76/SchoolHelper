@@ -1,0 +1,17 @@
+page-home {
+	.align-content > *
+	{
+     	display: flex!important;
+     	flex-wrap: wrap-reverse;
+     	flex-direction: column;
+     	justify-content: center;
+	}
+
+	.txt-align {
+		order: 1;
+	}
+
+	.btt-align {
+		order: 2;
+	}
+}

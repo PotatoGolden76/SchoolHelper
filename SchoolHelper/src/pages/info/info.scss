@@ -1,0 +1,24 @@
+page-info {
+	.align-content > *
+	{
+     	display: flex!important;
+     	flex-wrap: wrap-reverse;
+     	flex-direction: column;
+     	justify-content: center;
+	}
+
+	.title-align {
+		padding-top: 10px;
+		order: 1;
+	}
+
+	.div-align {
+		padding-top: 10px;
+		order: 2;
+	}
+
+	.list-align {
+		padding-top: 40px;
+		order: 3;
+	}
+}
