@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { InfoPage } from '../pages/info/info';
 import { CatPage } from '../pages/categ/categ';
+import { ListPage } from '../pages/list/list';
 
 
 @Component({

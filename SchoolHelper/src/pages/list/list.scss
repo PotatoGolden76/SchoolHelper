@@ -1,0 +1,21 @@
+page-list {
+	.align-content > *
+	{
+     	display: flex!important;
+     	flex-direction: column;
+     	flex-wrap: wrap; 	
+   	}
+
+	ion-list {
+		width: 100%;
+	}
+
+	button {
+		padding: 0px !important;
+	}
+
+	ion-list-header {
+		padding: 0px !important;
+	}
+
+}
