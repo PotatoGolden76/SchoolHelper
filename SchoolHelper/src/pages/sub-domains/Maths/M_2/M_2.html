@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Operații:</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center class="align-content">
+  <ion-scroll scrollX="true" scrollY="true" zoom="false">
+
+  	<h3><b>Operații cu mulțimi:</b></h3>
+    <h6 [MathJax]="reunion">{{reunion}}</h6>
+    <h6 [MathJax]="intersection">{{intersection}}</h6>
+    <h6 [MathJax]="diff">{{diff}}</h6>
+
+    <br>
+
+    <h3><b>Operații cu numere:</b></h3>
+    <h6 [MathJax]="e1">{{e1}}</h6>
+    <h6 [MathJax]="e2">{{e2}}</h6>
+    <h6 [MathJax]="e3">{{e3}}</h6>
+    <h6 [MathJax]="e4">{{e4}}</h6>
+
+    <br>
+
+    <h3><b>Teorema împărțirii cu rest:</b></h3>
+    <h6 [MathJax]="e5">{{e5}}</h6>
+    <h6 [MathJax]="e6">{{e6}}</h6>
+
+    <br>
+
+    <h3><b>Puteri:</b></h3>
+
+  </ion-scroll>
+</ion-content>

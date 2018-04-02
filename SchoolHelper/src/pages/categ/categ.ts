@@ -14,9 +14,9 @@ export class CatPage {
 	cards: Array<{title: string, photo: string, content: string}>;
 	constructor(public navCtrl: NavController) {
 		this.cards = [
-			{ title: 'Matematică', photo: '../assets/imgs/maths.jpg', content: 'maths' },
-			{ title: 'Fizică', photo: '../assets/imgs/physics.jpg', content: 'physics' },
-			{ title: 'Chimie', photo: '../assets/imgs/chem.jpg', content: 'chem' }
+			{ title: 'Matematică', photo: 'assets/imgs/maths.jpg', content: 'maths' },
+			{ title: 'Fizică', photo: 'assets/imgs/physics.jpg', content: 'physics' },
+			{ title: 'Chimie', photo: 'assets/imgs/chem.jpg', content: 'chem' }
 		];
 	}
 

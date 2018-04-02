@@ -1,0 +1,21 @@
+info 	- details page
+categ 	- big domain list
+list	- sub-domains list
+home	- main page
+
+sub-domains 	-list of the sub-domains in order
+
+Organisation of the sub-domain folder:
+	-sub-domains
+		-Maths
+			-M_domainNr
+		-Physics
+			-P_domainNr
+		-chem
+			-C_domainNr
+
+Sub-domain id list:
+	-Maths
+		- multimi de numere : 1
+		- operatii 			: 2
+		- divizibilitate 	: 3

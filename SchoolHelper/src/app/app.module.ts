@@ -8,8 +8,13 @@ import { InfoPage } from '../pages/info/info';
 import { CatPage } from '../pages/categ/categ';
 import { ListPage } from '../pages/list/list';
 
+import { M_1 } from '../pages/sub-domains/Maths/M_1/M_1';
+import { M_2 } from '../pages/sub-domains/Maths/M_2/M_2';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { MathJaxDirective } from '../directives/Mathjax.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     CatPage,
     InfoPage,
-    ListPage
+    ListPage,
+    MathJaxDirective,
+    M_1,
+    M_2
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     CatPage,
     InfoPage,
-    ListPage
+    ListPage,
+    M_1,
+    M_2
   ],
   providers: [
     StatusBar,
