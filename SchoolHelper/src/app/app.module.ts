@@ -10,6 +10,9 @@ import { ListPage } from '../pages/list/list';
 
 import { M_1 } from '../pages/sub-domains/Maths/M_1/M_1';
 import { M_2 } from '../pages/sub-domains/Maths/M_2/M_2';
+import { M_3 } from '../pages/sub-domains/Maths/M_3/M_3';
+import { M_4 } from '../pages/sub-domains/Maths/M_4/M_4';
+import { M_5 } from '../pages/sub-domains/Maths/M_5/M_5';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +28,10 @@ import { MathJaxDirective } from '../directives/Mathjax.directive';
     ListPage,
     MathJaxDirective,
     M_1,
-    M_2
+    M_2,
+    M_3,
+    M_4,
+    M_5
   ],
   imports: [
     BrowserModule,
@@ -39,7 +45,10 @@ import { MathJaxDirective } from '../directives/Mathjax.directive';
     InfoPage,
     ListPage,
     M_1,
-    M_2
+    M_2,
+    M_3,
+    M_4,
+    M_5
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Radicali:</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center class="align-content">
+  <ion-scroll scrollX="true" scrollY="true" zoom="false">
+
+    <h3><b>Rădăcina pătrată (Radicalul):</b></h3>
+    <h5 [MathJax]="rad">{{rad}}</h5>
+    
+    <br>
+
+    <h3><b>Reguli de calcul cu radicali:</b></h3>
+    <h5 [MathJax]="r1">{{r1}}</h5>
+    <h5 [MathJax]="r2">{{r2}}</h5>
+    <h5 [MathJax]="r3">{{r3}}</h5>
+    <h5 [MathJax]="r4">{{r4}}</h5>
+    <h5 [MathJax]="r5">{{r5}}</h5>
+    <h5 [MathJax]="r6">{{r6}}</h5>
+
+    <br>
+
+    <h3><b>Raționalizarea numitorului:</b></h3>
+    <h5 [MathJax]="rn1">{{rn1}}</h5>
+    <h5 [MathJax]="rn2">{{rn2}}</h5>
+    <h5 [MathJax]="rn3">{{rn3}}</h5>
+
+    <br>
+
+    <h3><b>Formula radicalilor compuși:</b></h3>
+    <h5 [MathJax]="rc">{{rc}}</h5>
+  </ion-scroll>
+</ion-content>

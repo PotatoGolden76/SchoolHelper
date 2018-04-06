@@ -6,6 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'M_1.html'
 })
 export class M_1 {
+
 	natural : String;
 	int_nat : String;
 	real : String;

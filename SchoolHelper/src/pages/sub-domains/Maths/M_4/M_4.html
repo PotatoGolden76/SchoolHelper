@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Divizibilitate:</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center class="align-content">
+  <ion-scroll scrollX="false" scrollY="true" zoom="false" class="main-ion-scroll">
+
+    <h3><b>Notații:</b></h3>
+    <ion-scroll scrollX="true" scrollY="false" zoom="false" class="secondary-ion-scroll_1">
+      <h5 [MathJax]="n1">{{n1}}</h5>
+      <h5 [MathJax]="n2">{{n2}}</h5>
+      <h5 [MathJax]="n3">{{n3}}</h5>
+      <h5 [MathJax]="n4">{{n4}}</h5>
+    </ion-scroll>
+
+    <br>
+
+    <h3><b>Criterii de divizibilitate:</b></h3>
+    <ol type="I">
+      <li>
+        <h6 text-wrap>Cu 2: un număr este divizibil cu 2 dacă și numai dacă ultima sa cifră este pară.</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Cu 3: un număr este divizibil cu 3 dacă și numai dacă suma cifrelor sale se divide cu 3.</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Cu 9: un număr este divizibil cu 9 dacă și numai dacă suma cifrelor sale se divide cu 9.</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Cu 5: un număr este divizibil cu 5 dacă și numai dacă ultima sa cifră este 5 sau 0.</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Cu 10: un număr este divizibil cu 10 dacă și numai dacă ultima sa cifră este 0.</h6>
+      </li>
+    </ol>
+
+    <br>
+
+    <h3><b>Proprietăți:</b></h3>
+    <ion-scroll scrollX="true" scrollY="false" zoom="false" class="secondary-ion-scroll_2">
+      <h5 [MathJax]="p1">{{p1}}</h5>
+      <h5 [MathJax]="p2">{{p2}}</h5>
+      <h5 [MathJax]="p3">{{p3}}</h5>
+      <h5 [MathJax]="p4">{{p4}}</h5>
+      <h5 [MathJax]="p5">{{p5}}</h5>
+      <h5 [MathJax]="p6">{{p6}}</h5>
+      <h5 [MathJax]="p7">{{p7}}</h5>
+      <h5 [MathJax]="p8">{{p8}}</h5>
+    </ion-scroll>
+
+    <h5 text-wrap>Număr prim: număr natural care are exact doi divizori;</h5>
+
+    <h5><p text-wrap>Pentru a calcula (a, b) procedăm astfel:</p></h5>
+    <ul>
+      <li>
+        <h6 text-wrap>Descompunem numerele in factori primi;</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Luăm factorii primi comuni, o singură dată, la exponentul cel mai mic și îi înmulțim;</h6>
+      </li>
+    </ul>
+
+    <br>
+
+    <h5><p text-wrap>Pentru a calcula [a, b] procedăm astfel:</p></h5>
+    <ul>
+      <li>
+        <h6 text-wrap>Descompunem numerele in factori primi;</h6>
+      </li>
+      <li>
+        <h6 text-wrap>Luăm factorii primi comuni și necomuni, o singură dată, la exponentul cel mai mare și îi înmulțim;</h6>
+      </li>
+    </ul>
+
+    <h5 text-wrap>A și B sunt prime intre ele dacă (A, B) = 1ș</h5>
+  </ion-scroll>
+</ion-content>

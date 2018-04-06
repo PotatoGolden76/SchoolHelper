@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Medii:</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center class="align-content">
+  <ion-scroll scrollX="true" scrollY="true" zoom="false" class="main-ion-scroll">
+
+    <h3><b>Medii:</b></h3>
+    <h5 [MathJax]="ma">{{ma}}</h5>
+    <h5 [MathJax]="mh">{{mh}}</h5>
+    <h5 [MathJax]="mg">{{mg}}</h5>
+    
+    <br>
+
+    <h5 [MathJax]="iem">{{iem}}</h5>
+  </ion-scroll>
+</ion-content>

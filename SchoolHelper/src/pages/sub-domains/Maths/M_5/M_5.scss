@@ -1,0 +1,17 @@
+page-m5 {
+	.align-content > *
+	{
+     	display: flex!important;
+     	flex-wrap: wrap;
+     	flex-direction: column;
+     	justify-content: flex-start;
+     	align-content: flex-start;
+     	text-align: left!important;
+	}
+
+	.main-ion-scroll {
+		padding: 0px !important;
+		white-space: nowrap;
+		height: 100%;
+	}
+}
