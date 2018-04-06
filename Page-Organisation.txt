@@ -13,9 +13,3 @@ Organisation of the sub-domain folder:
 			-P_domainNr
 		-chem
 			-C_domainNr
-
-Sub-domain id list:
-	-Maths
-		- multimi de numere : 1
-		- operatii 			: 2
-		- divizibilitate 	: 3
